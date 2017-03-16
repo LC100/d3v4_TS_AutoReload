@@ -1,0 +1,30 @@
+{
+  "name": "typescriptsamples",
+  "version": "1.0.0",
+  "description": "Yo",
+  "scripts": {
+    "live-server": "live-server",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "start": "tsc -w | live-server"
+  },
+  "keywords": [],
+  "author": "",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": ""
+    }
+  ],
+  "dependencies": {
+    "d3": "^4.7.3",
+    "systemjs": "^0.20.9"
+  },
+  "devDependencies": {
+    "@types/d3": "^4.7.0",
+    "concurrently": "^3.3.0",
+    "lite-server": "^2.2.2",
+    "typescript": "^2.0.3"
+  },
+  "repository": {}
+}

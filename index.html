@@ -1,0 +1,23 @@
+<!doctype html>
+<html class="" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="style.css">  
+        <script type="text/javascript" src="d3.min.js"></script>
+    </head>
+    <body>
+        <h1 id="title">Working File</h1>
+        <div id="message"></div>
+        <div id="d3Div">D3</div>
+
+        <!--<script src="app.js"></script>-->
+        <script src="/node_modules/systemjs/dist/system.js"></script>
+        <script>
+            System.import('app.ts').catch(function(err){ console.error(err); });
+        </script>
+    </body>
+</html>
